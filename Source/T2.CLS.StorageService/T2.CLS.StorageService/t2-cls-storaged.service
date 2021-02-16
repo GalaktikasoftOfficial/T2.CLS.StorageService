@@ -1,0 +1,14 @@
+[Unit]  
+Description=T2 CLS Storage Service  
+  
+[Service]  
+ExecStart=/usr/share/dotnet/dotnet /t2/t2-cls-storaged/T2.CLS.StorageService.dll
+WorkingDirectory=/t2/t2-cls-storaged
+User=t2-cls  
+Group=t2-cls
+Restart=on-failure  
+SyslogIdentifier=t2-cls-storaged 
+PrivateTmp=true  
+  
+[Install]  
+WantedBy=multi-user.target  
