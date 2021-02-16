@@ -1,0 +1,56 @@
+﻿{
+  "Name": "CLS",
+  "PartitionLifetime": "30.00:00:00",
+  "DateTimeField": "EventTime",
+  "SortFields": [ "EventTimeTics" ],
+  "Fields": [
+    {
+      "Name": "EventTime",
+      "TypeName": "DateTime"
+    },
+    {
+      "Name": "EventTimeTics",
+      "TypeName": "UInt64"
+    },
+    {
+      "Name": "TimeZone",
+      "TypeName": "String"
+    },
+    {
+      "Name": "SystemTag",
+      "TypeName": "String"
+    },
+    {
+      "Name": "MachineName",
+      "TypeName": "String"
+    },
+    {
+      "Name": "ProcessId",
+      "TypeName": "Int16"
+    },
+    {
+      "Name": "ThreadId",
+      "TypeName": "Int16"
+    },
+    {
+      "Name": "EnvironmentUserName",
+      "TypeName": "String"
+    },
+    {
+      "Name": "Level",
+      "TypeName": "Byte"
+    },
+    {
+      "Name": "SourceContext",
+      "TypeName": "String"
+    },
+    {
+      "Name": "Message",
+      "TypeName": "String"
+    },
+    {
+      "Name": "Exception",
+      "TypeName": "String"
+    }
+  ]
+}

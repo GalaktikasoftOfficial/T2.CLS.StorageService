@@ -1,0 +1,191 @@
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SML00001">
+    <value>Start Create ODBC Connection</value>
+  </data>
+  <data name="SML00002">
+    <value>Open ODBC Connection</value>
+  </data>
+  <data name="SML00003">
+    <value>Create new Data Base</value>
+  </data>
+  <data name="SML00004">
+    <value>DataBase changed</value>
+  </data>
+  <data name="SML00005">
+    <value>Create Log SystemEntry</value>
+  </data>
+  <data name="SML00006">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00007">
+    <value>Log system entry created. SystemName='{systemConfigurationName}', SystemId='{systemConfigurationId}'.</value>
+  </data>
+  <data name="SML00008">
+    <value>LogSystem entry creation failed. SystemName='{systemConfigurationName}', SystemId='{systemConfigurationId}'</value>
+  </data>
+  <data name="SML00009">
+    <value>Can not open connection. ConnectionString='{configurationConnectionString}'.</value>
+  </data>
+  <data name="SML00010">
+    <value>LogTable creation failed. SystemName='{logSystemName}', TableSchema:\n{tableSchema}</value>
+  </data>
+  <data name="SML00011">
+    <value>SQL&gt;&gt; {sqlQuery}</value>
+  </data>
+  <data name="SML00012">
+    <value>Log table entry created. SystemName='{systemName}', TableName='{tableName}'.</value>
+  </data>
+  <data name="SML00013">
+    <value>LogTable entry creation failed. SystemName='{systemName}', TableName='{tableName}'</value>
+  </data>
+  <data name="SML00014">
+    <value>Create Log Table Entry </value>
+  </data>
+  <data name="SML00015">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00016">
+    <value>Create Table</value>
+  </data>
+  <data name="SML00017">
+    <value>Table {tableName} created.</value>
+  </data>
+  <data name="SML00018">
+    <value>Table {tableName} creation failed.</value>
+  </data>
+  <data name="SML00019">
+    <value>Drop Table</value>
+  </data>
+  <data name="SML00020">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00021">
+    <value>Ensure Log System</value>
+  </data>
+  <data name="SML00022">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00023">
+    <value>Found System Configuration. Id: {systemConfigurationId}</value>
+  </data>
+  <data name="SML00024">
+    <value>LogSystem configuration failed. SystemName='{systemConfigurationName}'.</value>
+  </data>
+  <data name="SML00025">
+    <value>Find Table</value>
+  </data>
+  <data name="SML00026">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00027">
+    <value>Existing table '{tableName}' found.</value>
+  </data>
+  <data name="SML00028">
+    <value>Get Log Tables</value>
+  </data>
+  <data name="SML00029">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00030">
+    <value>Get Log Tables By System Name</value>
+  </data>
+  <data name="SML00031">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00032">
+    <value>InitStorage</value>
+  </data>
+  <data name="SML00033">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00034">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00035">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00036">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00037">
+    <value>Error Init storage</value>
+  </data>
+  <data name="SML00038">
+    <value>Is Log Table</value>
+  </data>
+  <data name="SML00039">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00040">
+    <value>'{TableName}' is log table: {isLog}</value>
+  </data>
+  <data name="SML00041">
+    <value>Rename Log Table</value>
+  </data>
+  <data name="SML00042">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00043">
+    <value>LogTable entry updated. Old TableName='{oldTableName}', new TableName='{newTableName}'.</value>
+  </data>
+  <data name="SML00044">
+    <value>Renaming LogTable failed. Old TableName='{oldTableName}', new TableName='{newTableName}'.</value>
+  </data>
+  <data name="SML00045">
+    <value>Rename Table</value>
+  </data>
+  <data name="SML00046">
+    <value>SQL&gt;&gt; {commandText}</value>
+  </data>
+  <data name="SML00047">
+    <value>Table '{oldTableName}' renamed to '{newTableName}'.</value>
+  </data>
+  <data name="SML00048">
+    <value>Renaming table failed. Old TableName='{oldTableName}', new TableName='{newTableName}'.</value>
+  </data>
+  <data name="SML00049">
+    <value>Update Log Table</value>
+  </data>
+  <data name="SML00050">
+    <value>Updating LogTable failed. SystemName='{systemConfigurationName}'.</value>
+  </data>
+</root>
